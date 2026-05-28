@@ -59,3 +59,15 @@ u2 = (a, b) => a * b
 // alert(add(2, 3))
 // alert(u(2, 3))
 // alert(u2(2, 3))  
+
+// NaN
+v = NaN // Not a Number
+
+// alert(v)
+
+// Infinity
+w = Infinity
+x = -Infinity
+
+// alert(w)
+// alert(x)
