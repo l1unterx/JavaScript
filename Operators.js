@@ -112,3 +112,20 @@ console.log("Is 'age' in s?", 'age' in s); // false (s is an array, not an objec
 console.log("Before deletion, p:", p);
 delete p.age; // Deletes the age property from object p
 console.log("After deletion, p:", p);
+
+// clone object using spread operator
+let original = { name: "Bob", age: 30 };
+let clone = { ...original };
+console.log("Original Object:", original);
+console.log("Cloned Object:", clone);
+
+// clone array using spread operator
+let originalArray = [1, 2, 3];
+let clonedArray = [...originalArray];
+console.log("Original Array:", originalArray);
+console.log("Cloned Array:", clonedArray);
+
+const objA = { x: 1, y: 2 };
+const n = structureClone(objA);
+console.log("Original Object:", objA);
+console.log("Cloned Object using structureClone:", n);
