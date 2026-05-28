@@ -296,3 +296,29 @@ const mallard = new Mallard('Mallard');
 mallard.fly(); // Output: Mallard can fly!
 mallard.swim(); // Output: Mallard can swim!
 mallard.quack(); // Output: Mallard can quack!  
+
+
+// interface simulation using abstract classes
+class Vehicle {
+    start() {
+        throw new Error('Method "start()" must be implemented.');
+    }
+
+    stop() {
+        throw new Error('Method "stop()" must be implemented.');
+    }
+}
+
+class Car extends Vehicle {
+    start() {
+        console.log('Car is starting');
+    }
+
+    stop() {
+        console.log('Car is stopping');
+    }
+}
+
+const car = new Car();
+car.start(); // Output: Car is starting
+car.stop(); // Output: Car is stopping  
