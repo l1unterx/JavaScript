@@ -12,3 +12,10 @@ getPass();
 window.onload = function(){
     alert(pass); //show the secret becuse it is a global variable
 }
+
+// truthy and falsy values
+// truthy like true, 1, '0', 'false', [], {}
+// falsy like false, 0, '', null, undefined, NaN, -0
+
+console.log(Boolean('')); // false
+console.log(Boolean('0'));
