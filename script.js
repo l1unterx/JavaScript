@@ -19,3 +19,10 @@ window.onload = function(){
 
 console.log(Boolean('')); // false
 console.log(Boolean('0'));
+
+// nullish coalescing operator
+let user;
+let defaultUser = 'John Doe';
+
+let currentUser = user ?? defaultUser; // if user is null or undefined, use defaultUser
+console.log(currentUser); // John Doe
