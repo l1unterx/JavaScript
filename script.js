@@ -32,3 +32,10 @@ let user = ['john', 'doe', 'smith', 'mary'];
 for (let i = 0; i < user.length; i+=2) {
     console.log(user[i]); // john, smith
 }
+
+let o = {a: 1, b: 2, c: 3};
+for (let key in o) {
+    console.log(key); // a, b, c
+    console.log(o[key]);
+    alert(o[key]); // 1, 2, 3
+}
