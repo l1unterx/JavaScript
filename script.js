@@ -1,5 +1,5 @@
 // variables
-function getPass(){
+function getPass() {
     pass = 'something'; // global variable and is not safe to use
     var pass1 = 'something else';
     let pass2 = 'something else again';
@@ -9,7 +9,7 @@ function getPass(){
 getPass();
 
 
-window.onload = function(){
+window.onload = function () {
     alert(pass); //show the secret becuse it is a global variable
 }
 
@@ -29,13 +29,18 @@ console.log(currentUser); // John Doe
 
 let user = ['john', 'doe', 'smith', 'mary'];
 
-for (let i = 0; i < user.length; i+=2) {
+for (let i = 0; i < user.length; i += 2) {
     console.log(user[i]); // john, smith
 }
 
-let o = {a: 1, b: 2, c: 3};
+let o = { a: 1, b: 2, c: 3 };
 for (let key in o) {
     console.log(key); // a, b, c
     console.log(o[key]);
     alert(o[key]); // 1, 2, 3
 }
+
+// do while
+
+let i = 0
+do { console.log(i); } while (i > 0); // 0, because the condition is checked after the loop body is executed at least once
