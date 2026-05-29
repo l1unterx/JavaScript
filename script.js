@@ -5,3 +5,7 @@ function getPass(){
     let pass2 = 'something else again';
     const pass3 = 'something else again and again';
 }
+
+getPass();
+
+console.log(pass); //show the secret becuse it is a global variable
