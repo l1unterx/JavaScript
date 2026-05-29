@@ -8,4 +8,7 @@ function getPass(){
 
 getPass();
 
-console.log(pass); //show the secret becuse it is a global variable
+
+window.onload = function(){
+    alert(pass); //show the secret becuse it is a global variable
+}
