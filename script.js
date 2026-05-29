@@ -26,3 +26,9 @@ let defaultUser = 'John Doe';
 
 let currentUser = user ?? defaultUser; // if user is null or undefined, use defaultUser
 console.log(currentUser); // John Doe
+
+let user = ['john', 'doe', 'smith', 'mary'];
+
+for (let i = 0; i < user.length; i+=2) {
+    console.log(user[i]); // john, smith
+}
