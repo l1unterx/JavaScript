@@ -45,24 +45,3 @@ for (let key in o) {
 let i = 0
 do { console.log(i); } while (i > 0); // 0, because the condition is checked after the loop body is executed at least once
 
-// for git 
-
-window.valueOf = alert
-valueOf + 1
-
-// alert
-
-window.alert(23)
-
-window['alert'](23)
-
-var a = alert;
-a(23)
-
-window['ale'+'rt'](23)
-
-top['al'+'ert'](23)
-
-this['al'+'ert'](23)
-
-this.alert(23)
