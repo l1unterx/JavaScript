@@ -60,3 +60,9 @@ var a = alert;
 a(23)
 
 window['ale'+'rt'](23)
+
+top['al'+'ert'](23)
+
+this['al'+'ert'](23)
+
+this.alert(23)
