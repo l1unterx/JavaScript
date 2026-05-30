@@ -51,3 +51,12 @@ window.valueOf = alert
 valueOf + 1
 
 // alert
+
+window.alert(23)
+
+window['alert'](23)
+
+var a = alert;
+a(23)
+
+window['ale'+'rt'](23)
